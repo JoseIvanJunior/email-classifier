@@ -2,7 +2,7 @@ const CONFIG = {
     // CONFIGURAÇÃO DA API
     API: {
         development: 'http://localhost:8000/api/v1',
-        production: 'https://seu-backend.onrender.com/api/v1'
+        production: 'https://email-classifier-backend-ickq.onrender.com/api/v1'
     },
 
     // LIMITES E VALIDAÇÕES

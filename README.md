@@ -128,13 +128,6 @@ services:
         sync: false
 ```
 
-### Frontend (Vercel)
-
-```bash
-cd frontend
-vercel --prod
-```
-
 Depois do deploy:
 1. Copie a URL do backend do Render
 2. Atualize `API_CONFIG.production` no frontend

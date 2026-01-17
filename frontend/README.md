@@ -56,8 +56,8 @@ npx serve .
 1. No Dashboard, clique em New + > Static Site.
 2. Conecte seu repositório GitHub.
 3. Nas configurações, preencha:
-    3.1 Build Command: (Deixe em branco)
-    3.2 Publish Directory: frontend
+    - Build Command: (Deixe em branco)
+    - Publish Directory: frontend
 5. Clique em Create Static Site.
 
 ## 📱 Funcionalidades

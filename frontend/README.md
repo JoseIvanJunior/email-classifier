@@ -51,32 +51,14 @@ npx serve .
 
 ## 🌐 Deploy
 
-### Vercel (Recomendado)
+### Render
 
-```bash
-# Instale o Vercel CLI
-npm i -g vercel
-
-# Na pasta frontend/
-vercel
-```
-
-### Netlify
-
-1. Arraste a pasta `frontend/` para https://app.netlify.com/drop
-2. Ou use o Netlify CLI:
-
-```bash
-npm i -g netlify-cli
-netlify deploy --prod
-```
-
-### GitHub Pages
-
-1. Faça commit do `index.html`
-2. Vá em Settings > Pages
-3. Selecione a branch e pasta
-4. Salve
+1. No Dashboard, clique em New + > Static Site.
+2. Conecte seu repositório GitHub.
+3. Nas configurações, preencha:
+    - Build Command: (Deixe em branco)
+    - Publish Directory: frontend
+5. Clique em Create Static Site.
 
 ## 📱 Funcionalidades
 
